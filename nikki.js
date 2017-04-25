@@ -410,9 +410,9 @@ function filtering(criteria, filters) {
 	}
 
 	if ($("#showmore").attr("isshowmore") == 1) {
-		var size = 10;
+		var size = 15;
 		if (result[0] && result[0].type.mainType == "饰品")
-			size = 5;
+			size = 8;
 		var tsize = size;
 		for (var i in result) {
 			if (i > 0 && result[i].type.type != result[i - 1].type.type)
