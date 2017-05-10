@@ -221,7 +221,7 @@ function getstrClothes(result){
 	if(result == null || result.length == 0)
 		return " : 无";
 	var str = " :";
-	var max = 5;
+	var max = 6;
 	for(var i in result){
 		if(max > 0){
 			str += " " + result[i].name + "「" + actScore(result[i]) + " " + removeNum(result[i].source) + "」" + ">";		
